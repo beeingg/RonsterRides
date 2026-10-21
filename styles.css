@@ -1,0 +1,90 @@
+/* Hele website */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: black;
+  color: white;
+}
+
+/* Header */
+header {
+  background: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 15px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.logo {
+  height: 60px;
+}
+
+/* Rode tekst */
+.rood {
+  color: #e3212b;
+}
+
+/* Home */
+.hero {
+  background: #111;
+  padding: 100px 15%;
+}
+
+.knop {
+  background: #e3212b;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.over {
+  padding: 60px 15%;
+}
+
+.cijfer {
+  display: inline-block;
+  background: #111;
+  padding: 20px;
+  margin: 10px 10px 0 0;
+  border-radius: 10px;
+}
+
+/* Bikes */
+.product {
+  display: flex;
+  gap: 50px;
+  padding: 50px 10%;
+}
+
+.product div {
+  flex: 1;
+}
+
+.product img {
+  width: 100%;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  padding: 8px 0;
+  border-bottom: 1px solid #333;
+}
+
+/* Telefoon */
+@media (max-width: 800px) {
+  .product {
+    flex-direction: column;
+  }
+}
